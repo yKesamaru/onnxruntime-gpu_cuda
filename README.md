@@ -14,7 +14,7 @@ https://github.com/yKesamaru/FACE01_trained_models
 
 [CUDA Execution Provider: Requirements ](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#requirements)
 
-![](assets/2024-08-07-18-43-08.png)
+![](https://raw.githubusercontent.com/yKesamaru/onnxruntime-gpu_cuda/master/assets/2024-08-07-18-43-08.png)
 
 ところが先のようなエラーが発生してコードが動作しない場合は、依存ライブラリを特定してシンボリックリンクを作成する方法でこの問題を回避できます。
 
@@ -32,7 +32,7 @@ https://github.com/yKesamaru/FACE01_trained_models
 
 この操作は未検証です。この記事ではシンボリックリンクをはる方法を解説します。
 
-![](assets/eye-catch.png)
+![](https://raw.githubusercontent.com/yKesamaru/onnxruntime-gpu_cuda/master/assets/eye-catch.png)
 
 ## 環境
 ```bash
