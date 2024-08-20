@@ -18,7 +18,7 @@ https://github.com/yKesamaru/FACE01_trained_models
 
 ところが先のようなエラーが発生してコードが動作しない場合は、依存ライブラリを特定してシンボリックリンクを作成する方法でこの問題を回避できます。
 
-ここではシステムのCUDAバージョンとONNX Runtimeが求めるCUDAバージョンが異なっている場合の対処法を解説します。
+ここではシステムの`CUDAバージョン`と`ONNX Runtime`が求める`CUDAバージョン`が異なっている場合の対処法を解説します。
 
 ### 注意
 [公式ドキュメント](https://onnxruntime.ai/docs/install/#install-onnx-runtime-gpu-cuda-12x)では以下の記述があります。
@@ -118,7 +118,7 @@ pip install onnxruntime-gpu==1.18.1
 以上で必要な`CUDAライブラリ`が正しくロードされるはずです。
 
 ## おわりに
-今回はシステムのCUDAバージョンとONNX Runtimeが要求するCUDAバージョンが異なった場合の対処法を解説しました。
+今回はシステムの`CUDAバージョン`と`ONNX Runtime`が要求する`CUDAバージョン`が異なった場合の対処法を解説しました。
 どなたかの助けになれば幸いです。
 
 ## 参考文献
